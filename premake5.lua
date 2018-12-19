@@ -2,8 +2,8 @@ project "GLFW"
     kind "StaticLib"
     language "C"
     
-	targetdir ("bin/" .. outputdir .. "/%{prj.name}")
-  objdir ("bin/Intemediates/" .. outputdir .. "/%{prj.name}")
+	targetdir ("bin/" .. outputDir .. "/%{prj.name}")
+	objdir ("bin/Intemediates/" .. outputDir .. "/%{prj.name}")
 
 	files
 	{
